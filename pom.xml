@@ -58,7 +58,6 @@
                         <argLine>
                             -javaagent:"${settings.localRepository}/org/aspectj/aspectjweaver/${aspectj.version}/aspectjweaver-${aspectj.version}.jar"
                         </argLine>
-                        <!--<test>ua/net/itlabs/${suite}</test>-->
                         <groups>${test.includeCategories}</groups>
                         <excludedGroups>${test.excludeCategories}</excludedGroups>
                         <systemPropertyVariables>
