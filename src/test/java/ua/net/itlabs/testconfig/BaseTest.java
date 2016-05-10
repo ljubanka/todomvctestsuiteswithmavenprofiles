@@ -1,4 +1,4 @@
-package ua.net.itlabs.operations;
+package ua.net.itlabs.testconfig;
 
 import com.codeborne.selenide.Configuration;
 

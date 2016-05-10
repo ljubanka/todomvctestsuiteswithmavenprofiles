@@ -1,15 +1,16 @@
-package ua.net.itlabs.operations;
+package ua.net.itlabs;
 
 import org.junit.Test;
 import org.junit.experimental.categories.Category;
 import ua.net.itlabs.categories.Buggy;
 import ua.net.itlabs.categories.Smoke;
+import ua.net.itlabs.testconfig.BaseTest;
 
 import static ua.net.itlabs.pages.TodoMVC.*;
 import static ua.net.itlabs.pages.TodoMVC.TaskType.ACTIVE;
 import static ua.net.itlabs.pages.TodoMVC.TaskType.COMPLETED;
 
-public class TodosOperationsAtAllFilter extends BaseTest{
+public class TodosOperationsAtAllFilterTest extends BaseTest {
 
 
     @Test

@@ -1,13 +1,14 @@
-package ua.net.itlabs.operations;
+package ua.net.itlabs;
 
 import org.junit.Test;
 import org.junit.experimental.categories.Category;
 import ua.net.itlabs.categories.Smoke;
+import ua.net.itlabs.testconfig.BaseTest;
 
 import static ua.net.itlabs.pages.TodoMVC.*;
 
 @Category(Smoke.class)
-public class TodosE2ETest extends BaseTest{
+public class TodosE2ETest extends BaseTest {
 
     @Test
     public void testTasksCommonFlow() {
